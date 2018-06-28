@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.preserve_paths = 'README.md', 'package.json', '**/*.js'
-  s.source_files   = 'ios/**/*.{h,m}'
+  s.source_files   = 'ios/*.{h,m}'
   s.dependency 'React'
   s.dependency 'CocoaAsyncSocket', '~> 7.6'
 end
